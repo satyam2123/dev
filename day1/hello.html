@@ -1,31 +1,88 @@
 <!doctype html>
 <html>
-  <head>
-    <title>github webpage</title>
-  </head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <body >
-    <!-- down of this i am add navbar  -->
-     <nav class=" navbar navbar-expand-lg m-0 p-0 fw-bold bg-body-tertiary " style="border-bottom: 2px solid #000;">
-  <div class="container-fluid my-nav bg-primary">
-    <img src="pngegg.png" alt="village image" width="100px" height="100px" class="d-inline-block align-text-top ms-3">
-    <a class="navbar-brand fs-3 p-4 " href="#">मेरी ग्राम पंचायत</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto me-3">
-        <a class="nav-link fs-4 text-warnino active  " aria-current="page" href="#">Home</a>
-        <a class="nav-link fs-4 text-warnino active " href="#">Features</a>
-        <a class="nav-link fs-4 text-warnino active " href="#">Pricing</a>
-        <a class="nav-link fs-4 text-warnino  active" aria-disabled="true">Disabled</a>
-      </div>
-    </divtext-warning
+
+<head>
+  <title>github webpage</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styleofhello.css">
+
+
+
+<body>
+  <!-- down of this i am add navbar  -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-primary bg-primary shadow-sm rounded"> -->
+  <nav class=" navbar navbar-expand-lg m-0 p-0 shadow-sm rounded fw-bold bg-body-tertiary "
+    style="border-bottom: 2px solid #000;">
+    <div class="container-fluid my-nav bg-primary">
+      <img src="pngegg.png" alt="village image" width="100px" height="100px" class="d-inline-block align-text-top ms-3">
+      <a class="navbar-brand fs-3 p-4 " href="#">मेरी ग्राम पंचायत</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto me-4 ms-auto">
+          <a class="nav-link m-3 fs-4 text-warnino active  " aria-current="page" href="#">समाचार</a>
+          <a class="nav-link m-3 fs-4 text-warnino active " href="#">सेवाएँ</a>
+          <a class="nav-link m-3 fs-4 text-warnino active " href="#">संपर्क करें</a>
+          <a class="nav-link m-3 fs-4 text-warnino  active" aria-disabled="true">अन्य</a>
+        </div>
+        </divtext-warning div>
+  </nav>
+
+  
+
+  <!-- there are added a autoplaying caraousal  -->
+   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="p1.jpg" class="d-block w-100"style="filter: contrast(1.2);"  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="p2.jpg" class="d-block w-100" style="filter: contrast(1.2);" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="p3.jpg" class="d-block w-100" style="filter: contrast(1.2);" alt="...">
+    </div>
   </div>
-</nav>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- adding something new in the line -->
+  <div class="d-flex justify-content-around fw-bolder fs-5 bg-danger text-white  pb-1">
+    <div class="text-center ">
+      <i class="bi bi-house  " style="font-size:2rem;"></i>
+      <span class="hed2">आवास</span>
+    </div>
+    <div class="text-center">
+      <i class="bi bi-droplet" style="font-size:2rem; font-weight: 800;"></i>
+      <span class="hed2">पानी</span>
+    </div>
+    <div class="text-center">
+      <i class="bi bi-telephone" style="font-size:2rem; font-weight: 800;"></i>
+      <span class="hed2">संपर्क</span>
+    </div>
+  </div>
+
+  <!-- there are i am adding a footer  -->
+   <footer class="bg-primary text-white text-center p-3 ">
+  © 2025 मेरी ग्राम पंचायत. सभी अधिकार सुरक्षित।
+</footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
